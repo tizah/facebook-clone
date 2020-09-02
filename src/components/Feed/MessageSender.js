@@ -7,7 +7,7 @@ import "./MessageSender.css";
 
 function MessageSender() {
   const [input, setInput] = useState("");
-  const [imageUrl, setImageUrl] = useState("");
+  //const [imageUrl, setImageUrl] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
     //can save to db or external storage
